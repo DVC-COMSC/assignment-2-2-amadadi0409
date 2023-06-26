@@ -1,17 +1,10 @@
 def main():
-    """
-    ##################################################
+  
     # Comlete your code here
-    Use the same variables: celcius fahrenheit 
-    ##################################################
-    """
-
-    """
-    ########################################
-    # Do not delete the return statement
-    ########################################
-    """
-    return celcius, fahrenheit
+    celsius_temp = float( input("Temperature value in degree Celsius: " ))  
+    fehrenhiet_temp = celsius_temp * 1.8 + 32
+    print("The Fahrenheit equivalent of x = ", fehrenhiet_temp)
+    return celsius_temp, fehrenhiet_temp
 
 
 if __name__ == '__main__':
